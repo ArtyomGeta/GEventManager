@@ -13,12 +13,9 @@ public class Chooser extends JDialog {
         setContentPane(contentPane);
         setModal(true);
         getRootPane().setDefaultButton(buttonOK);
+
     }
 
     public static void main(String[] args) {
-        Chooser dialog = new Chooser();
-        dialog.pack();
-        dialog.setVisible(true);
-        System.exit(0);
     }
 }
