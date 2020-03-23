@@ -2,7 +2,7 @@ package com.artyomgeta.GEventManager;
 
 import javax.swing.*;
 
-public class Viewer {
+public class Viewer extends JFrame {
     private JPanel panel1;
     private JTabbedPane tabbedPane1;
     private JButton clearButton;
@@ -58,4 +58,9 @@ public class Viewer {
     private JRadioButton absoluteFileRadioButton;
     private JButton chooseButton1;
     private JButton saveButton;
+
+    public Viewer() {
+
+    }
+
 }
